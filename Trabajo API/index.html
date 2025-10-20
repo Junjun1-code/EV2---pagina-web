@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -23,67 +23,29 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Maps</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Create a beatmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://osu.ppy.sh/docs/#introduction" aria-current="page">Wiki</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid" id="search-section">
+    <div class="container-fluid" id="search">
         <form class="d-flex ms-5 mt-2 me-5 mb-2">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search">
-            <button class="btn btn-outline-success" type="submit" onsubmit='
-            search()
-            '>Search</button>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+            <button class="btn btn-outline-success" type="submit" onsubmit='search()'>Search</button>
         </form>
     </div>
-
-
-    <div class="row ms-5">
-        <div class="col-sm-5 ms-5 me-5 mt-3">
-            <div class="card">
-                <div class="row">
-                <div class="col">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/e/e2/IMG_Academy_Logo.svg" alt="" width="40%">
-                </div>
-                <div class="col">
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-sm-5 ms-5 mt-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <section class="cards"></section>
     <script src="assets/script/script.js"></script>
 </body>
-
+<footer>
+    <p class="footer-text"> ESTA NO ES UNA PAGINA OFICIAL DE OSU, ES UNICAMENTE UNA REPLICA PARCIAL DE LA PAGINA WEB CON FINES DE PRACTICA. </p>
+    <p class="footer-text"> Dirijase a su pagina oficial si desea descargar beatmaps para Osu <i class="bi bi-arrow-down"></i></p>
+    <a id="footer-link" href="https://osu.ppy.sh/beatmapsets"> Pagina oficial de Osu </a>
+</footer>
 </html>
