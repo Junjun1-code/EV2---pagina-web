@@ -47,7 +47,7 @@ async function renderData() {
                 </div>
 
                 <div class="row">
-                    <p class="card-text"> <i class="bi bi-heart-fill"></i> ${Data.favorite_count}  |  <i class="bi bi-play"></i>  ${Data.play_count}   |  ${Data.status}</p>
+                    <p class="card-text"> <i class="bi bi-heart-fill"></i> ${Data.favourite_count}  |  <i class="bi bi-play"></i>  ${Data.play_count}   |  ${Data.status}</p>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@ async function searchDataByName(name){
                 </div>
 
                 <div class="row">
-                    <p class="card-text"> <i class="bi bi-heart-fill"></i> ${Data.favorite_count}  |  <i class="bi bi-play"></i>  ${Data.play_count}   |  ${Data.status}</p>
+                    <p class="card-text"> <i class="bi bi-heart-fill"></i> ${Data.favourite_count}  |  <i class="bi bi-play"></i>  ${Data.play_count}   |  ${Data.status}</p>
                 </div>
             </div>
         </div>
