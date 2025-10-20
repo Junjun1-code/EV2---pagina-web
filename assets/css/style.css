@@ -1,0 +1,36 @@
+body{
+    margin-top: 60px;
+    background-color: rgb(48, 43, 54);
+}
+
+.cards{
+    border-style: solid;
+    border-color: blue;
+    margin: 2px
+}
+
+.card{
+    background-color: rgb(109, 104, 111);
+    color: white
+}
+
+#search{
+    margin-top: 140px
+}
+
+footer{
+    background-color: rgb(12, 43, 63);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.footer-text{
+    text-align: center;
+    color: rgb(255, 96, 96)
+}
+
+#footer-link{
+    display: block;
+    text-align: center;
+    color: rgb(142, 23, 142)
+}
